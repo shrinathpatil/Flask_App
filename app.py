@@ -16,3 +16,6 @@ def sayHello(name):
   print(name)
   return jsonify({"data":f"Hello, {name}","code":69}),200
 
+if __name__=='main':
+  app.run()
+
